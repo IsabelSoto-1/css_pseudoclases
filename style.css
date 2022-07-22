@@ -1,0 +1,26 @@
+    
+  a:hover {
+    background-color: red;
+  }
+  .master:hover {
+    background-color: red;
+
+  }
+  p:first-of-type{
+    background-color: red;
+  }
+  input:nth-child(2){
+    background-color: red;
+  }
+  .intro::first-line{
+    background-color: red;
+  }
+  p::first-letter{
+    background-color: red;
+  }
+  p::before{
+    content: url(smiley.png);
+ }
+  p::after{
+    content: url(smiley.png);
+  }
